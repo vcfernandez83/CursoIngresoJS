@@ -5,7 +5,7 @@ function sumar()
 {
 	var numerUno;
 	var numerDos;
-	/*no importa que el 33 sea un número, lo toma como una palabra
+	/*
 	var numerUno=33;
 	var numerDos="33";*/
 	var suma;
@@ -13,19 +13,18 @@ function sumar()
 	numerUno = document.getElementById('numeroUno').value;
 	numerDos = document.getElementById('numeroDos').value;
 
-	/* UNA FORMA DE RESOLVERLO
-	suma = parseInt(numerUno) + parseInt(numerDos); //se parsea cada número antes de sumar
+	/*
+	suma = parseInt(numerUno) + parseInt(numerDos);
 	*/
 
-	//OTRA FORMA DE RESOLVERLO, ÉSTA ES LA ÓPTIOMA
 	numerUno = parseInt(numerUno);
 	numerDos = parseInt(numerDos);
 	suma=numerUno+numerDos;
 
 
-	alert("la suma es " + suma); //el "+" concatena
+	alert("la suma es " + suma);
 
-	/*PROGRAMADOR AVANZADO, NO USAR EN PARCIAL
+	/*
 	alert(parseInt(numerUno)+parseInt(numerDos))*/
 }
 

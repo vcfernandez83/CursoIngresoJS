@@ -10,17 +10,13 @@ function Mostar()
 	alert("Su nombre es " + nombre + " y tiene " + edad + " años");
 	*/
 
-//MENSAJES PARA EL PROGRAMADOR
-
 	var unaVariable="datos";
-	console.log("primer mensaje") //acá sacar el ";" no da error, en otra línea, puede darlo (ej. if)
+	console.log("primer mensaje");
 	var otraVariable;
 	
-//ERRORES F12 EN GOOGLE CHROME
-	//var mi nombre; //error
 	var miNombre;
 	var miEdad;
-	miNombre=document.getElementById('elNombre').value; //error si pongo ("el Nombre"): cannot read property "value" of null(...)
+	miNombre=document.getElementById('elNombre').value;
 	console.info("linea final:",unaVariable);
 	miEdad = document.getElementById("laEdad").value;
 	alert("Usted se llama " + miNombre + " y tiene " + miEdad + " años");

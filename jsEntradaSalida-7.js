@@ -23,8 +23,6 @@ function restar()
 	var resta;
 	numerUno = document.getElementById('numeroUno').value;
 	numerDos = document.getElementById('numeroDos').value;
-	/*numerUno = parseInt(numerUno);
-	numerDos = parseInt(numerDos);*/ //el parseInt  solo es necesario en la suma
 	resta=numerUno-numerDos;
 	alert("la resta es " + resta);
 }
@@ -36,8 +34,6 @@ function multiplicar()
 	var multiplica;
 	numerUno = document.getElementById('numeroUno').value;
 	numerDos = document.getElementById('numeroDos').value;
-	/*numerUno = parseInt(numerUno);
-	numerDos = parseInt(numerDos);*/ //el parseInt  solo es necesario en la suma
 	multiplica=numerUno*numerDos;
 	alert("la multiplicación es " + multiplica);
 }
@@ -49,8 +45,6 @@ function dividir()
 	var divide;
 	numerUno = document.getElementById('numeroUno').value;
 	numerDos = document.getElementById('numeroDos').value;
-	/*numerUno = parseInt(numerUno);
-	numerDos = parseInt(numerDos);*/ //el parseInt  solo es necesario en la suma
 	divide=numerUno/numerDos;
 	alert("la división es " + divide);
 }
